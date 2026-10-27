@@ -1,0 +1,12 @@
+1. Saludo (saludo)Objetivo: Solicitar el nombre del usuario y presentar un mensaje de bienvenida personalizado.   Concepto clave: Entrada y salida básica de datos tipo cadena de texto.Estructura y desarrollo:Definición de la variable nombre de tipo cadena para almacenar la respuesta.   Uso de la instrucción Escribir para imprimir la pregunta en pantalla y Leer para capturar la entrada del usuario.   Concatenación de texto fijo con la variable guardada para desplegar el mensaje final.  
+
+2. Conversor de Edad (edades)Objetivo: Convertir la edad ingresada en años a sus equivalentes en días, meses y semanas.   Concepto clave: Expresiones y operaciones aritméticas directas.Estructura y desarrollo:
+ Lectura de la cantidad de años en la variable edad.   Aplicación de equivalencias de tiempo mediante constantes de multiplicación:Días: edad * 365   Meses: edad * 12   Semanas: edad * 52   Impresión ordenada de los tres resultados obtenidos.   
+ 
+  3. Calculadora de Propinas (propinas)Objetivo: Calcular el monto de propina, el valor total acumulado y el costo individual dividido entre los comensales.  
+    Concepto clave: Validación de datos mediante ciclos iterativos condicionales (Repetir...Hasta Que).
+    Estructura y desarrollo:Implementación de una estructura Repetir para asegurar que el monto de la cuenta y el número de personas sean estrictamente mayores a cero antes de proceder.   Notificación de error en pantalla si el usuario ingresa valores inválidos en los campos restringidos. 
+    Ejecución de fórmulas financieras:Propina: cuenta * porcentajePropina / 100   Total: cuenta + propina   Pago individual: total / personas   Salida en pantalla con el desglose del cobro.
+   
+   
+ 4. Promedio de Notas (promedionotas)   Objetivo: Obtener el promedio de tres calificaciones dentro de un rango estricto de 0 a 5.   Concepto clave: Anidamiento de estructuras de control (Para y Repetir) junto con variables acumuladoras.   Estructura y desarrollo:Inicialización de la variable acumuladora suma en cero para evitar inconsistencias en memoria.   Bucle Para con límite definido a tres iteraciones para controlar la cantidad de lecturas.   Sub-bucle Repetir dentro del ciclo de lectura que actúa como filtro, obligando a reingresar el dato si la nota no se encuentra en el intervalo de 0 a 5.   Suma consecutiva de cada nota válida y cálculo posterior de la media aritmética mediante división entre tres
