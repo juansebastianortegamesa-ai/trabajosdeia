@@ -20,7 +20,7 @@ print(numbers)
 
 
 #tambien se puede con bubble sort
-numbers = [99,2737237,283823832,666,67,1]
+numbers = [7,2,5]
 
 for i in range(len(numbers) - 1):
     for j in range(len(numbers) - 1 - i):
